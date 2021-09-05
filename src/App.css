@@ -1,4 +1,4 @@
-
+/*Styles */
 *{
   box-sizing: none;
 }
@@ -13,7 +13,7 @@ body{
   align-items: center;
   justify-content: center;
 }
-
+/*styles Section */
 .section{
   align-items: center;
   justify-content: center;
@@ -37,6 +37,7 @@ body{
   align-items: center;
 }
 
+/*Cards Books */
 .card{
   background-color: #FFA500;
   padding: 20px;
@@ -55,6 +56,7 @@ body{
   border-radius: 10px;
 }
 
+/*Button Submit*/
 .button{
   background: orange;
   color: #fff;

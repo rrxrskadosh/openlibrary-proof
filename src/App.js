@@ -7,6 +7,7 @@ import * as data from './services/OpenLibraryData';
 class App extends Component {
   state = { books: [], isFetching: false, query: '', numFound: 0 };
 
+  // Search Books State
   onSearch = async e => {
     e.preventDefault();
     this.setState({ isFetching: true, books: []});
@@ -14,7 +15,7 @@ class App extends Component {
     const { docs = [], numFound = 0 } = result;
     this.setState({ books: docs, isFetching: false, numFound });
   };
-
+  //Query Change State 
   onQueryChange = ({ target: { value } }) => {
     this.setState({ query: value });
    };

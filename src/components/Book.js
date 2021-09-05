@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Book = ({ book }) => {
+const Book = ({ book }) => {//Destructuring keys of book
     const {
         title,
         author_name,
