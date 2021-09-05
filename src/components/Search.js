@@ -8,9 +8,10 @@ const Search = ({ query, onQueryChange, onSearch }) => {
                 <input
                   className="input_medium"
                   type="text"
-                  placeholder="Enter the Title Book"
+                  placeholder="Enter the Title Book" style={{fontFamily: 'Helvetica'}}
                   defaultValue={query}
                   onChange={onQueryChange}
+                  required
                 />
               </div>
               <div className="control">

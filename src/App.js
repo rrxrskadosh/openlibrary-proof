@@ -24,12 +24,11 @@ class App extends Component {
       <Fragment>
         <section className="section">
           <div className="container">
-            <h1 className="title has-text-centered">
+            <h1 className="main_title">
               OPENLIBRARY API BOOKS
             </h1>
           </div>
-        </section>
-        <Search
+          <Search
           onQueryChange={this.onQueryChange}
           onSearch={this.onSearch}
           query={this.state.query}
@@ -40,6 +39,8 @@ class App extends Component {
           count={this.state.numFound}
     
         />
+        </section>
+        
 
       </Fragment>
     );
