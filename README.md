@@ -1,11 +1,13 @@
 # Open Library proof Cosume API
 Search the Open Library API for books
 
-## Available Scripts
+## We clone the project:
+git clone https://github.com/rrxrskadosh/openlibrary-proof.git
 
 ## Set-Up & Installation
 Install dependencies:
 
+In the project directory, we must install the dependencies:
 ### `yarn install`
 
 In the project directory, you can run:
